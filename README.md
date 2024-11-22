@@ -12,7 +12,5 @@ DhakaFC is a responsive Fast Food website, where you can order delicious noodles
 **Client:** HTML, CSS, JavaScript
 
 
-## Authors
 
-- [@farhanshahriyar](https://github.com/farhanshahriyar)
 
