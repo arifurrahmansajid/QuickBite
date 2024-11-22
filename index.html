@@ -1,0 +1,557 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DhakaFC | A Food Eshop</title>
+
+    <!-- swiper -->
+        <link
+    rel="stylesheet"
+    href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"
+    />
+
+    <!-- #cdn font awsome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+    
+    <!-- #css file -->
+    <link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+    <!-- header section starts -->
+    <header>
+        <a href="#" class="logo"><i class="fas fa-utensils"> dhakafc.</i></a>
+
+        <nav class="navbar">
+            <a class="active" href="#home">home</a>
+            <a href="#dishes">dishes</a>
+            <a href="#about">about</a>
+            <a href="#order">order</a>
+        </nav>
+
+        <div class="icon">
+            <i class="fas fa-bars" id="menu-bars"></i>
+            <i class="fas fa-search" id="search-icon"></i>
+            <a href="#" class="fas fa-heart"></a>
+            <a href="#" class="fas fa-shopping-cart"></a>
+        </div>
+    </header>
+    <!-- header section ends -->
+
+    <!-- #search form starts -->
+    <form action="" id="search-form">
+        <input type="search" placeholder="search your food here...." name="" id="search-box">
+        <label for="search-box" class="fas fa-search"></label>
+        <i class="fas fa-times" id="close"></i>
+    </form>
+    <!-- #search form ends -->
+
+    <!-- home section starts -->
+    <section class="home" id="home">
+        <div class="swiper-container home-slider">
+            <div class="swiper-wrapper wrapper">
+                <div class="swiper-slide slide">
+                    <div class="content">
+                        <span>Our Special Noodles</span>
+                        <h3>Naga Noodles</h3>
+                        <p>When everyone has enough noodles to eat, then there will be world peace.</p>
+                        <a href="#" class="btn">Order Now !</a>
+                    </div>
+                    <div class="image">
+                        <img src="assets/images/home-img-1.png" alt="">
+                    </div>
+                </div>
+                <div class="swiper-slide slide">
+                    <div class="content">
+                        <span>Our Special Chicken</span>
+                        <h3>BBQ Chicken</h3>
+                        <p>probably responsible for supplying the chicken that became your chicken wing or chicken tender.</p>
+                        <a href="#" class="btn">Order Now !</a>
+                    </div>
+                    <div class="image">
+                        <img src="assets/images/home-img-2.png" alt="">
+                    </div>
+                </div>
+                <div class="swiper-slide slide">
+                    <div class="content">
+                        <span>Our Special Pizza</span>
+                        <h3>Chicken Pizza</h3>
+                        <p>"Pizza is not a 'trend' it's a way of life" 
+                             - Anonymous.</p>
+                        <a href="#" class="btn">Order Now !</a>
+                    </div>
+                    <div class="image">
+                        <img src="assets/images/home-img-3.png" alt="">
+                    </div>
+                </div>
+            </div>
+            <div class="swiper-pagination"></div>
+        </div>
+    </section>
+    <!-- home section ends -->
+
+    <!-- dishes section starts -->
+    <section class="dishes" id="dishes">
+        <h3 class="sub-heading">Our Dishes</h3>
+        <h1 class="heading">Popular Dishes</h1>
+
+        <div class="box-container">
+            <!-- box 1 -->
+            <div class="box">
+                <a href="#" class="fas fa-heart"></a>
+                <a href="#" class="fas fa-eye"></a>
+                <img src="assets/images/dish-1.png" alt="">
+                <h3>Double cheese burger</h3>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                </div>
+                <span>$14.99</span>
+                <a href="#" class="btn">add to cart</a>
+            </div>
+
+               <!-- box 2 -->
+               <div class="box">
+                <a href="#" class="fas fa-heart"></a>
+                <a href="#" class="fas fa-eye"></a>
+                <img src="assets/images/dish-2.png" alt="">
+                <h3>Tasty Nuggets</h3>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <span>$10.99</span>
+                <a href="#" class="btn">add to cart</a>
+            </div>
+
+               <!-- box 3 -->
+               <div class="box">
+                <a href="#" class="fas fa-heart"></a>
+                <a href="#" class="fas fa-eye"></a>
+                <img src="assets/images/dish-3.png" alt="">
+                <h3>Chicken With Lemonade</h3>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <span>$15.99</span>
+                <a href="#" class="btn">add to cart</a>
+            </div>
+
+               <!-- box 4 -->
+               <div class="box">
+                <a href="#" class="fas fa-heart"></a>
+                <a href="#" class="fas fa-eye"></a>
+                <img src="assets/images/dish-4.png" alt="">
+                <h3>Awsome Pizza</h3>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <span>$9.99</span>
+                <a href="#" class="btn">add to cart</a>
+            </div>
+
+               <!-- box 5 -->
+               <div class="box">
+                <a href="#" class="fas fa-heart"></a>
+                <a href="#" class="fas fa-eye"></a>
+                <img src="assets/images/dish-5.png" alt="">
+                <h3>Muffin</h3>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                </div>
+                <span>$7.99</span>
+                <a href="#" class="btn">add to cart</a>
+            </div>
+
+               <!-- box 6 -->
+               <div class="box">
+                <a href="#" class="fas fa-heart"></a>
+                <a href="#" class="fas fa-eye"></a>
+                <img src="assets/images/dish-6.png" alt="">
+                <h3>Hot Chicken</h3>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                </div>
+                <span>$9.99</span>
+                <a href="#" class="btn">add to cart</a>
+            </div>
+
+               <!-- box 7 -->
+               <div class="box">
+                <a href="#" class="fas fa-heart"></a>
+                <a href="#" class="fas fa-eye"></a>
+                <img src="assets/images/dish-1.png" alt="">
+                <h3>Burger</h3>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <span>$3.99</span>
+                <a href="#" class="btn">add to cart</a>
+            </div>
+        </div>
+    </section>
+    <!-- dishes section ends -->
+
+    <!-- about us starts -->
+    <section class="about" id="about">
+        <h3 class="sub-heading">about us</h3>
+        <h1 class="heading">Why choose us?</h1>
+
+        <div class="row">
+            <div class="image">
+                <img src="assets/images/about-img.png" alt="">
+            </div>
+            <div class="content">
+                <h3>Best Food in the Bangladesh</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse, asperiores at! Rem eligendi, ducimus temporibus 
+                    nesciunt eius, amet aspernatur ipsam perspiciatis hic iusto itaque architecto, nemo earum suscipit quidem quae?</p>
+                <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum iste rerum molestias explicabo fugiat 
+                        ullam aliquam atque nisi libero labore dignissimos, suscipit possimus recusandae sint ex assumenda nostrum aut mollitia!</p>
+                    <div class="icons-container">
+                        <div class="icons">
+                            <i class="fas fa-shipping-fast"></i>
+                            <span>free delivery</span>
+                        </div>
+                        <div class="icons">
+                            <i class="fas fa-dollar-sign"></i>
+                            <span>Easy payment</span>
+                        </div>
+                        <div class="icons">
+                            <i class="fas fa-headset"></i>
+                            <span>24/7 service</span>
+                        </div>
+                    </div>
+                    <a href="#" class="btn">Learn More</a>
+            </div>
+        </div>
+    </section>
+    <!-- about us ends -->
+
+    <!-- menu section starts -->
+    <section class="menu" id="menu">
+        <h3 class="sub-heading">Our menu</h3>
+        <h1 class="heading">Today's speciality</h1>
+
+        <div class="box-container">
+            <!-- box 1 -->
+            <div class="box">
+                <div class="image">
+                    <img src="assets/images/menu-1.jpg" alt="">
+                    <a href="#" class="fas fa-heart"></a>
+                </div>
+                <div class="content">
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <h3>delicious Pizza</h3>
+                    <p>Pizza is a dish of Italian origin consisting of a usually round, flat base of leavened wheat-based dough topped with tomatoes, cheese, and often various other ingredients, which is then baked at a high temperature, traditionally in a wood-fired oven.</p>
+                    <a href="#" class="btn">add to cart</a>
+                    <span class="price">$8.99</span>
+                </div>
+            </div>
+
+              <!-- box 2 -->
+              <div class="box">
+                <div class="image">
+                    <img src="assets/images/menu-2.jpg" alt="">
+                    <a href="#" class="fas fa-heart"></a>
+                </div>
+                <div class="content">
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <h3>Special Burger</h3>
+                    <p>A hamburger, or simply burger, is a food consisting of fillings—usually a patty of ground meat, typically beef—placed inside a sliced bun or bread roll.</p>
+                    <a href="#" class="btn">add to cart</a>
+                    <span class="price">$5.99</span>
+                </div>
+            </div>
+
+              <!-- box 3 -->
+              <div class="box">
+                <div class="image">
+                    <img src="assets/images/menu-3.jpg" alt="">
+                    <a href="#" class="fas fa-heart"></a>
+                </div>
+                <div class="content">
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <h3>Potato</h3>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Odio aliquid adipisci dolore at saepe ab voluptates fugit dolorum et omnis autem nemo
+                         vitae amet totam hic, consequuntur quia consequatur porro.</p>
+                    <a href="#" class="btn">add to cart</a>
+                    <span class="price">$9.99</span>
+                </div>
+            </div>
+
+              <!-- box 4 -->
+              <div class="box">
+                <div class="image">
+                    <img src="assets/images/menu-5.jpg" alt="">
+                    <a href="#" class="fas fa-heart"></a>
+                </div>
+                <div class="content">
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <h3>Special Chocolate pancake </h3>
+                    <p>The greatest buttermilk pancakes are made with melted butter, eggs, buttermilk, and a touch of sugar, along with flour, baking powder, baking soda, and salt. These pancakes also have a combination of all of these ingredients. The chocolate chips are the next ingredient to go in.</p>
+                    <a href="#" class="btn">add to cart</a>
+                    <span class="price">$10.99</span>
+                </div>
+            </div>
+
+              <!-- box 5 -->
+              <div class="box">
+                <div class="image">
+                    <img src="assets/images/menu-4.jpg" alt="">
+                    <a href="#" class="fas fa-heart"></a>
+                </div>
+                <div class="content">
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <h3>Choco Waffle</h3>
+                    <p>After pouring in the batter, the ingredients were compacted and then cooked over an open hearth fire. This is the first time that the word for waffles, which originates from an old French word called guafre and was later translated into Old English as wafla, appears in written form.</p>
+                    <a href="#" class="btn">add to cart</a>
+                    <span class="price">$7.99</span>
+                </div>
+            </div>
+
+              <!-- box 6 -->
+              <div class="box">
+                <div class="image">
+                    <img src="assets/images/menu-6.jpg" alt="">
+                    <a href="#" class="fas fa-heart"></a>
+                </div>
+                <div class="content">
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <h3>Cake IceCream</h3>
+                    <p>Regular cake has limited flavors—only a few cake and icing options. In an ice cream cake, any flavor is fine.</p>
+                    <a href="#" class="btn">add to cart</a>
+                    <span class="price">$4.99</span>
+                </div>
+            </div>
+
+              <!-- box 7 -->
+              <div class="box">
+                <div class="image">
+                    <img src="assets/images/menu-7.jpg" alt="">
+                    <a href="#" class="fas fa-heart"></a>
+                </div>
+                <div class="content">
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <h3>Special Lemonade</h3>
+                    <p>Lemon water is acidic, which can wear down tooth enamel and lead to cavities if consumed on a regular basis. Heartburn, nausea, vomiting, and other symptoms of gastric reflux can be brought on by drinking too much lemon water.</p>
+                    <a href="#" class="btn">add to cart</a>
+                    <span class="price">$11.99</span>
+                </div>
+            </div>
+
+              <!-- box 8 -->
+              <div class="box">
+                <div class="image">
+                    <img src="assets/images/menu-8.jpg" alt="">
+                    <a href="#" class="fas fa-heart"></a>
+                </div>
+                <div class="content">
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <h3>5x Mixed Food</h3>
+                    <p>Healthiest grains are oats. They're gluten-free whole grains that include vitamins, minerals, fiber, and antioxidants. Strawberries are nutritious. They include vitamins, fiber, and high quantities of polyphenol antioxidants without sodium, fat, or cholesterol. Bananas contain vitamins and nutrients, so eating them regularly can improve your health.</p>
+                    <a href="#" class="btn">add to cart</a>
+                    <span class="price">$9.99</span>
+                </div>
+            </div>
+
+              <!-- box 9 -->
+              <div class="box">
+                <div class="image">
+                    <img src="assets/images/menu-9.jpg" alt="">
+                    <a href="#" class="fas fa-heart"></a>
+                </div>
+                <div class="content">
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <h3>Fresh Orange Juice</h3>
+                    <p>Orange juice is low in calories and fat, making it a great weight loss option.</p>
+                    <a href="#" class="btn">add to cart</a>
+                    <span class="price">$3.99</span>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- menu section ends -->
+
+    <!-- order section starts -->
+    <section class="order" id="order">
+
+        <h3 class="sub-heading"> order now </h3>
+        <h1 class="heading"> free and fast </h1>
+    
+        <form action="">
+    
+            <div class="inputBox">
+                <div class="input">
+                    <span>your name</span>
+                    <input type="text" placeholder="enter your name">
+                </div>
+                <div class="input">
+                    <span>your number</span>
+                    <input type="number" placeholder="enter your number">
+                </div>
+            </div>
+            <div class="inputBox">
+                <div class="input">
+                    <span>your order</span>
+                    <input type="text" placeholder="enter food name">
+                </div>
+                <div class="input">
+                    <span>additional food</span>
+                    <input type="test" placeholder="extra with food">
+                </div>
+            </div>
+            <div class="inputBox">
+                <div class="input">
+                    <span>Quantity</span>
+                    <input type="number" placeholder="how many orders">
+                </div>
+                <div class="input">
+                    <span>date and time</span>
+                    <input type="datetime-local">
+                </div>
+            </div>
+            <div class="inputBox">
+                <div class="input">
+                    <span>your address</span>
+                    <textarea name="" placeholder="enter your address" id="" cols="30" rows="10"></textarea>
+                </div>
+                <div class="input">
+                    <span>your message</span>
+                    <textarea name="" placeholder="enter your message" id="" cols="30" rows="10"></textarea>
+                </div>
+            </div>
+    
+            <input type="submit" value="order now" class="btn">
+    
+        </form>
+    
+    </section>
+    <!-- order section ends -->
+
+    <!-- footer section starts -->
+    <section class="footer">
+        <div class="box-container">
+            <div class="box">
+                <h3>Locations</h3>
+                <a href="#">Bangladesh</a>
+                <a href="#">India</a>
+                <a href="#">Pakistan</a>
+                <a href="#">Srilanka</a>
+            </div>
+            <div class="box">
+                <h3>Quick links</h3>
+                <a href="#">Home</a>
+                <a href="#dishes">Dishes</a>
+                <a href="#order">Order</a>
+                <a href="#about">About</a>
+            </div>
+            <div class="box">
+                <h3>Contact Info</h3>
+                <a href="#">+8801722323233</a>
+                <a href="#">+8801552311382</a>
+                <a href="#">dhakafcrestro@gmail.com</a>
+                <a href="#">Dhaka-1000, Bangladesh</a>
+            </div>
+            <div class="box">
+                <h3>Follow Us</h3>
+                <a href="#">Facebook</a>
+                <a href="https://twitter.com/08Shahriyar">Twiiter</a>
+                <a href="https://www.instagram.com/abirshahriyar33/">Instagram</a>
+                <a href="https://www.linkedin.com/in/mdfarhanshahriyar18/">Linkedin</a>
+            </div>
+        </div>
+
+        <div class="credit"> copyright @ 2022 by <a target="blank" href="https://mdfarhanshahriyar.netlify.app/"><span>MdFarhanShahriyar</span></a></div>
+    </section>
+    <!-- footer section ends -->
+
+
+
+
+    <!-- swiper.js -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+    <!-- custom js -->
+    <script src="assets/main.js"></script>
+</body>
+</html>
