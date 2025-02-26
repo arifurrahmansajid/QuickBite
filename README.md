@@ -1,6 +1,6 @@
 ## Project 
-DhakaFC is a responsive Fast Food website, where you can order delicious noodles, burgers, chicken and more from the comfort of your own home. With our user-friendly interface getting your favorite meals has never been easier. 
-## About DhakaFC Responsive website
+QuickBite is a responsive Fast Food website, where you can order delicious noodles, burgers, chicken and more from the comfort of your own home. With our user-friendly interface getting your favorite meals has never been easier. 
+## About QuickBite Responsive website
 
 1. Responsive design ensures a seamless experience on any device
 2. Wide selection of items to choose from on our menu
